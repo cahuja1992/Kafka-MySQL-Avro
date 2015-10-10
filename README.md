@@ -1,6 +1,20 @@
 # Kafka-MySQL-Avro
 Kafka Consumer to insert avro records to mysql
 
+
+```
+python setup.py install
+```
+
+```
+#!/usr/bin/env python
+
+from divoltemysql.kafkamysql import kafkamysql
+km=kafkamysql("conf/default.yml","conf/DefaultEventRecord.avsc")
+km.divoltecall()
+```
+
+
 ## Apache Avro
 In the emerging need of Serialization frameworks including Thrift, 
 Protocol Buffersand Avro for a solution to address our needs as a demand side platform, 
