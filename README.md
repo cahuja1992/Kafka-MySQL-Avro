@@ -78,3 +78,19 @@ Read More
 * http://www.tutorialspoint.com/avro/avro_quick_guide.htm
 
 ## Apache Kafka
+
+#### Features of Kafka
+1. Kafka is a distributed messaging queue: A queue which can scale on 100 or 1000s of machine.
+2. It supports replication: Because there are multiple broker available, for fault tolerance and high availability.
+3. Partitioned the data: To limit the data coming basically disk usage on each machine (node) depending on each node machine.
+4. No single point failure: Every node in a cluster is same as another, no master-slave architecture.
+5. High read and write performance: Push and Pull mechanism is followed. If Producer is producing data 1000 records/sec, consumer at same rate. 99% data will come from RAM and Cache. That is why we have high read and write speed.
+6. Persist data into disk; All cache and RAM goes into disk
+7. Support the data retention : How much data I want to retain
+8. For high availability of required data : How much amount of old data I want to retain
+
+Read More
+* http://getdatainsights.com/blog/?p=89
+* http://getdatainsights.com/blog/?p=168
+* http://hortonworks.com/hadoop-tutorial/simulating-transporting-realtime-events-stream-apache-kafka/
+* http://www.michael-noll.com/blog/2014/08/18/apache-kafka-training-deck-and-tutorial/
