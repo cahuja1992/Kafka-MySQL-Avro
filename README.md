@@ -3,7 +3,8 @@ Kafka Consumer to insert avro records to mysql
 
 
 ```
-python setup.py install
+git clone https://github.com/cahuja1992/Kafka-MySQL-Avro.git
+python kafka-mysql-avro/setup.py install
 ```
 
 ```
