@@ -1,0 +1,12 @@
+setup.py
+bin/divolte-mysql
+divolte_mysql.egg-info/PKG-INFO
+divolte_mysql.egg-info/SOURCES.txt
+divolte_mysql.egg-info/dependency_links.txt
+divolte_mysql.egg-info/not-zip-safe
+divolte_mysql.egg-info/requires.txt
+divolte_mysql.egg-info/top_level.txt
+src/Configurations.py
+src/_init_.py
+src/kafkamysql.py
+src/run.py

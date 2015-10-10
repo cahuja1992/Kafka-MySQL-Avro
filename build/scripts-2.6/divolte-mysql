@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+
+from divoltemysql.kafkamysql import kafkamysql
+km=kafkamysql("conf/default.yml","conf/DefaultEventRecord.avsc")
+km.divoltecall()

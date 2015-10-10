@@ -1,0 +1,16 @@
+server:
+ - host: xxx.xxx.xxx.xxx
+ - username: user
+ - password: pass
+ - dbName: kafka
+
+broker:
+ - host: xxx.xxx.xxx.xxx
+ - port: 9020
+
+consumer:
+ - topic: kafka-mysql
+ - consumergroup: mysql-consumer
+
+avro:
+ - schema: DefaultEventRecord.avsc

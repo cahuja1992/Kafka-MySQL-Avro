@@ -1,0 +1,4 @@
+kafka-python
+avro
+MySQL-python
+PyYAML
